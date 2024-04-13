@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.bar {
+    height: 75px; /* Set the height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: yellow;
+    color: red;
+    font-size: 3vh;
+}
+.bar h1 {
+    margin: 0; /* Reset any default margin */
+    background: transparent;
+}
+.image img{
+    position: relative;
+    margin: 15px;
+    border: 4px solid black;
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+}
+.image2{
+    position: relative;
+    align-self: flex-end;
+    margin: 15px;
+}
+.image2 img{
+    border: 4px solid black;
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+}
+.first{
+    position: absolute;
+    background-color: transparent;
+    background: transparent;
+    left: 450px;
+    top: 100px;
+    font-size: 40px;
+}
+.first h2{
+    background-color: transparent;
+    background: transparent;
+    padding: 15px;
+}
+.second{
+    position: absolute;
+    background-color: transparent;
+    background: transparent;
+    width: 900px;
+    left: 15px;
+    top: 650px;
+    font-size: 30px;
+}
+.second h2,h3{
+    background-color: transparent;
+    background: transparent;
+    padding: 10px;
+}
+.yogesh{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    left: 40px;
+}

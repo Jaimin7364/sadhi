@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.bar {
+    height: 75px; /* Set the height */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; /* Center vertically */
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    
+}
+.bar ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    
+}
+
+.bar ul li {
+    display: inline; /* Set list items to display horizontally */
+    margin-right: 20px; /* Add space between list items */
+    font-size: 35px;
+}
+.bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.bar ul li a:hover{
+    color: red;
+    font-size: 38px ;
+    cursor: pointer;
+    border: 1px red;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px red;
+}
+.back{
+    position: relative;
+    object-fit: cover;
+}
+.back img{
+    height: 558px;
+    width: 100%;
+}
+.logo img{
+    position: absolute;
+    top: 5px;
+    margin: 0;
+    left: 25px;
+    height: 65px;
+    border: 2px solid red;
+}
